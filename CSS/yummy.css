@@ -1,0 +1,214 @@
+.header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  height: 90px;
+  border-bottom: 1px solid #fff;
+}
+
+.dropdown:hover .alta {
+  position: absolute;
+  display: block;
+}
+
+.salam:hover .sola {
+  position: absolute;
+  display: block;
+  visibility: visible;
+}
+
+.sola {
+  visibility: hidden;
+  margin-left: 110px;
+}
+
+.hover-red:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+header ul a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+
+.dropdown-menu a:hover {
+  text-decoration: none;
+  color: red;
+  transition: 0.3;
+}
+
+.margin-left {
+  margin-left: 150px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+section {
+  margin-top: 70px;
+}
+.bg-eee {
+  background-color: #eee;
+}
+
+.about {
+  width: 100%;
+  height: 1000px;
+}
+
+.section-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #7f7f90;
+  text-transform: uppercase;
+}
+.section-header p {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Amatic SC", cursive;
+}
+
+.call-us {
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  background-color: #fff;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+}
+
+main section {
+  overflow: hidden;
+  padding: 80px 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-500 {
+  height: 500px;
+}
+
+.h-1000 {
+  height: 1000px;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+
+.h-60vh {
+  min-height: 60vh;
+}
+
+.pbtn {
+  font-size: 40px;
+}
+
+.f-size64 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #37373f;
+  font-family: "Amatic SC", cursive;
+}
+
+.btn-book {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 36px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: red;
+  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
+}
+
+.dd {
+  position: fixed;
+}
+.why-us .why-box {
+  padding: 30px;
+  background: #ce1212;
+  color: #fff;
+}
+
+.why-us .why-box h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us .why-box p {
+  margin-bottom: 30px;
+}
+
+.why-us .why-box .more-btn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.why-us .why-box .more-btn i {
+  font-size: 14px;
+}
+
+.why-us .why-box .more-btn:hover {
+  color: #ce1212;
+  background: #fff;
+}
+
+.why-us .icon-box {
+  text-align: center;
+  background: #fff;
+  padding: 40px 30px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(55, 55, 63, 0.1);
+  transition: 0.3s;
+}
+
+.why-us .icon-box i {
+  color: #ce1212;
+  margin-bottom: 30px;
+  font-size: 32px;
+  margin-bottom: 30px;
+  background: rgba(206, 18, 18, 0.1);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}
+
+.why-us .icon-box h4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 30px 0;
+  font-family: #37373f;
+}
+
+.why-us .icon-box p {
+  font-size: 15px;
+  color: #6c757d;
+}
+
+@media (min-width: 1200px) {
+  .why-us .icon-box:hover {
+    transform: scale(1.1);
+  }
+}
